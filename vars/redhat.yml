@@ -1,0 +1,4 @@
+---
+# roles/docker-registry/vars/debian.yml
+
+docker-registry_package_extension: 'rpm'

@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - docker-registry_deployment_users_home: /root
+    - docker-registry_testing_provider: lxd
+
+  roles:
+    - docker-registry

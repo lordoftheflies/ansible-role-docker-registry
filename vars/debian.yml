@@ -1,0 +1,5 @@
+---
+# roles/docker-registry/vars/debian.yml
+
+# Debian specific vars
+docker-registry_package_extension: 'deb'
